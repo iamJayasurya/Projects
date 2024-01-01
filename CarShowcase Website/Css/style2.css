@@ -1,0 +1,138 @@
+.title{
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 30px;
+
+}
+
+.video{
+top: o;
+opacity: 75%;
+width: 100%;
+position: fixed;
+z-index: -1;
+min-width: 1000px;
+
+}
+.main{
+    width: 100%;
+    position: relative;
+    display:flex
+}
+.tt{
+    font-family: Georgia, serif;
+}
+.heading{
+    margin-top: 100px;
+    font-family: Georgia, serif;
+    color:white;
+}
+.logo{
+    opacity:80%;
+    height:300px
+}
+.logo:hover{
+    opacity: 100%;
+}
+.spacing{
+    padding: 5px;
+}
+.top3{
+    margin: auto;
+    position: relative;
+    height: 700px;
+    justify-content: center;
+
+}
+.ft:hover{
+    color: red;
+}
+.title{
+    margin: auto;
+}
+.carousel{
+    height: 300px;
+    max-width:500px;
+    margin: auto;
+} 
+.bi:hover{
+    fill: red;
+    transition:1s;
+
+}
+.card-text{
+    font-size :15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    visibility: hidden;
+}
+.card-text{
+    visibility: visible;
+    transition-duration: .5s;
+}
+.card>img{
+    height: 300px; ;
+    width: auto;
+    margin: auto;
+    padding: 10px;
+    display: block;
+  transition: transform 2.75s; 
+
+}
+.top-right{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.card>img:hover{
+    transform: scale(1.5);
+    transform-origin: 50% 50%;
+}
+  .rig{
+    margin-right: 0px;
+  }
+.ft{
+    background: transparent;
+}
+.emptySpaceBorder{
+    height:200px;
+    width: 100%;
+}
+.emptySpaceBorder1{
+    height:90px;
+    width: 100%;
+}
+
+.clickarr{
+    position: relative;
+position: absolute;
+top: 15%;
+margin-top: 60px;
+min-height: 450px;
+max-width: 98%;
+margin: auto;
+
+ background-size: contain;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content:space-around;
+ align-items: center;
+ background-size: cover;
+ color: white;
+ z-index: 2000;
+ visibility: hidden;
+}
+.strong{
+    color: #b674f0;
+}
+.icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    color: white;
+}
+.icon:hover{
+    color: red;
+    transition-duration: 1s;
+}
